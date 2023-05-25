@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
+    
+    <title>Dojonary</title>
+
+</head>
+<body>
+    <!--Encabezado-->
+    <div class="barraNav">
+        <h1 class="tituloNav">Dojonary</h1>
+        <form class="buscadorNav" action="https://www.google.com/search" method="GET">
+            <input type="text" name="q" placeholder="Search">
+        </form>
+        <button class="botonNav" type="button" onclick="botonlogin()" value="Login">Login</button>
+    </div>
+    <!--Contenedor-->
+    <div class="contenedorgeneral">    
+        <div class="contenedor1">
+            <!--primer cuadro-->
+                <div class="definicion1">
+                    <main>
+                        <h1 class="palabra1">ninja</h1>
+                        <h3 class="palabra2">noun</h3>
+                        <p class="palabra3">Plural: <span class="cursiva">ninjas</span></p>
+                        <button class="btn1" onclick="numlikes(this)"><span class="numLike">13</span> likes</button>
+                    </main>
+                    <div class="definicionninja"> 
+                        <p>A practitioner skilled in the</p>
+                        <p><span class="subrayado">Japanese </span>art of <span class="subrayado">ninjutsu</span></p>
+                    </div>
+                </div>
+            <!--Segundo cuadro-->
+                <div class="definicion2">
+                    <main>
+                        <h1 class="palabra1">ninja</h1>
+                        <h3 class="palabra2">noun</h3>
+                        <p class="palabra3">Plural: <span class="cursiva">ninjas</span></p>
+                        <button class="btn2" onclick="numlikes(this)"><span class="numLike">37</span> likes</button>
+                    </main>
+                    <div class="definicionninja"> 
+                        <p>A <span class="subrayado">programmer</span> who breaks</p>
+                        <p>down problems with <span class="subrayado">zen</span>-like</p>
+                        <p>focus</p>
+                    </div>
+                </div> 
+        </div>
+        <!--Tercer cuadro-->
+            <div class="contenedor2">
+                <div class="definicion3">
+                    <p class="textod3">Dojonary is</p>
+                    <p class="textod3">defined by <span class="negrita">YOU</span></p>
+                    <button class="btn3" onclick="eliminarboton(this)">Add Definition</button>
+                </div>
+            </div>
+    </div>
+    <script src="./JS/index.js"></script>
+</body>
+</html>
